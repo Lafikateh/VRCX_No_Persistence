@@ -6,3 +6,8 @@ This patch will no longer be necessary once the VRCX developers add an option to
 - __Description__: Remove the "System.Net.HttpListener::Start()" function call in "WorldDBManager.cs" inside "VRCX.exe"  
 - __Find__:		`0x287000002B`  
 - __Replace__:	`0x0000000000`  
+
+## Patch for version "2023.12.24":  
+- __Description__: Remove the "System.Net.HttpListener::Start()" function call in "WorldDBManager.cs" inside "VRCX.dll"  
+- __Find__:		`0x287400002B`  
+- __Replace__:	`0x0000000000`  
